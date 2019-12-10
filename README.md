@@ -1,8 +1,8 @@
 # DSA example
 ## Môi trường : 
-_ Ngôn ngữ : Go
+_ Ngôn ngữ : **Go**
 
-_ Thư viện của Go : 
+_ Thư viện của Go sử dụng : 
 ```go
 "crypto/dsa"
 "crypto/rand"
