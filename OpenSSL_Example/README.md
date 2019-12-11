@@ -12,7 +12,9 @@ openssl rsa -in myprivate.pem -pubout > mypublic.pem
 _________________
 ## Ký văn bản
 _ Thuật toán mã hóa : **SHA-256**
+
 _ Padding Schema (Phương pháp thêm thông tin để đủ độ dài mã hóa) : **PCKS#1 v1.5**
+
 _ Tạo 1 file chứa toàn bộ bảng chữ cái : 
 ```bash
 echo abcdefghijklmnopqrstuvwxyz > myfile.txt
@@ -22,7 +24,7 @@ _ Ký văn bản vừa tạo sử dụng khóa bí mật :
 openssl dgst -sha256 -sign myprivate.pem -out sha256.sign myfile.txt 
 ```
 _ Đọc văn bản đã ký (dạng Hex) : 
-![alt text](/img/HexShaSign.png)
+![alt text](img/HexShaSign.png)
 __________
 ## Xác thực chữ ký
 _ Tham số đầu vào : 
