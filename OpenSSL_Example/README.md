@@ -13,7 +13,7 @@ _________________
 ## Ký văn bản
 _ Thuật toán mã hóa : **SHA-256**
 
-_ Padding Schema (Phương pháp thêm thông tin để đủ độ dài mã hóa) : **PCKS#1 v1.5**
+_ Padding Schema (Phương pháp thêm thông tin để đủ độ dài mã hóa) : **PKCS#1 v1.5**
 
 _ Tạo 1 file chứa toàn bộ bảng chữ cái : 
 ```bash
